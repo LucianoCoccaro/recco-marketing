@@ -1,0 +1,170 @@
+/*RESETEO*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*ESTILOS DEL HEADER*/
+
+.header-container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    list-style: none;
+}
+
+/* NAV */
+.nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+/* MENU */
+
+.menu {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* TEXT DECORATION NONE MENU */
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+
+
+/*H1 TEXTO Y IMAGEN NOSOTROS*/
+.h1-padre {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 30px;
+    background: url(images/portada-nosotros.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h1-nosotros a {
+    text-decoration: none;
+    color: white;
+}
+
+.h1-nosotros {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+
+}
+
+
+
+/*H1 TEXTO Y IMAGEN PORTFOLIO*/
+.h1-padre-portfolio {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    gap: 30px;
+    background: url(images/portada-portfolio.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h1-portfolio a {
+    text-decoration: none;
+    color: white;
+}
+
+.h1-portfolio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+
+}
+
+/*H1 TEXTO Y IMAGEN SERVICIOS*/
+
+.h1-padre-servicios {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 30px;
+    background: url(images/portada-servicios.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h1-servicios a {
+    text-decoration: none;
+    color: white;
+}
+
+.h1-servicios {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+    /*H1 TEXTO Y IMAGEN FOTOGRAFIA*/
+
+    .padre-foto {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        gap: 30px;
+        background: url(images/portada-fotografia.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .h1-foto a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .h1-foto {
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+    }
+
+
+
+
+
+
+
+
+
+        /*FOOTER*/
+
+        .nav-footer {
+            background-color: white;
+            color: gray;
+            display: flex;
+            justify-content: space-around;
+            height: 100px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+        }
