@@ -4,13 +4,28 @@
     padding: 0%;
 }
 
+
 /*ESTILOS DEL HEADER*/
+
+.logo-recco img {
+    width: 180px;
+}
+
+.logo-recco {
+    text-align: left;
+    padding-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+
+
+}
 
 .header-container {
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
-    height: 70px;
+    min-height: 70px;
     background-color: white;
     color: gray;
     font-size: 20px;
@@ -55,7 +70,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: start;
-    gap: 30px;
     background: url(images/portada-nosotros.png);
     background-size: cover;
     background-position: center;
@@ -63,13 +77,16 @@
 
 
 .h1-nosotros a {
+    margin: 100px;
     text-decoration: none;
     color: white;
 }
 
 .h1-nosotros {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
+    margin-top: 40px;
+    padding-left: 2px;
 
 }
 
@@ -80,8 +97,8 @@
     width: 100%;
     height: 900px;
     display: flex;
-    align-items: baseline;
     justify-content: space-evenly;
+    align-items: baseline;
     gap: 30px;
     background: url(images/portada-portfolio.png);
     background-size: cover;
@@ -96,7 +113,9 @@
 
 .h1-portfolio {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
+    margin-left: 700px;
+    margin-top: 40px;
 
 }
 
@@ -116,38 +135,76 @@
 
 
 .h1-servicios a {
+    margin: 100px;
     text-decoration: none;
     color: white;
 }
 
 .h1-servicios {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
+    margin-top: 40px;
 }
-    /*H1 TEXTO Y IMAGEN FOTOGRAFIA*/
 
-    .padre-foto {
-        width: 100%;
-        height: 900px;
+/*H1 TEXTO Y IMAGEN FOTOGRAFIA*/
+
+.padre-foto {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 30px;
+    background: url(images/portada-fotografia.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h1-foto a {
+    text-decoration: none;
+    color: white;
+}
+
+.h1-foto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+
+}
+
+
+/* IMAGEN CLIENTES */
+
+.padre-clientes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.padre-clientes img {
+    width: 100%;
+    right: auto;
+}
+
+
+/*MOBILE*/
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+        align-items: center;
         display: flex;
-        align-items: flex-end;
-        justify-content: space-around;
-        gap: 30px;
-        background: url(images/portada-fotografia.png);
-        background-size: cover;
-        background-position: center;
     }
 
-
-    .h1-foto a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .h1-foto {
-        font-family: 'Poppins', sans-serif;
-        font-size: 35px;
-    }
+}
 
 
 
@@ -156,15 +213,96 @@
 
 
 
+/*FOOTER*/
 
-        /*FOOTER*/
+.nav-footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-around;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 5;
 
-        .nav-footer {
-            background-color: white;
-            color: gray;
-            display: flex;
-            justify-content: space-around;
-            height: 100px;
-            font-family: 'Poppins', sans-serif;
-            font-size: 20px;
-        }
+}
+
+
+
+/* MENUS DE LANDING */
+
+/*ESTILO HEADER LANDINGS*/
+
+.logo-recco-nosotros img {
+    width: 180px;
+}
+
+.logo-recco-nosotros {
+    text-align: left;
+    padding-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+
+
+}
+
+.header-nosotros {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 70px;
+    background-color: rgb(34, 34, 34);
+    color: gray;
+    font-size: 20px;
+    list-style: none;
+}
+
+/* NAV */
+.nav-nosotros {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+}
+
+
+
+/* MENU */
+
+.menu-nosotros {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* TEXT DECORATION NONE MENU */
+
+.menu-nosotros a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+/*IMAGEN ADENTRO DE NOSTROS*/
+
+.adentro-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.h1-adentro-nostros img {
+    width: 100%;
+    right: auto;
+
+}
+
+
+
