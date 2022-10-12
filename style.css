@@ -50,6 +50,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    font-weight: 700;
 }
 
 /* TEXT DECORATION NONE MENU */
@@ -57,6 +58,7 @@
 .menu a {
     text-decoration: none;
     color: gray;
+    font-weight: 700;
 }
 
 
@@ -64,7 +66,7 @@
 
 
 /*H1 TEXTO Y IMAGEN NOSOTROS*/
-.h1-padre {
+.h1-padre  {
     width: 100%;
     height: 900px;
     display: flex;
@@ -75,16 +77,24 @@
     background-position: center;
 }
 
+.h1-padre a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
 
-.h1-nosotros a {
+
+.h1-nosotros h1 {
     margin: 100px;
     text-decoration: none;
     color: white;
+
 }
 
 .h1-nosotros {
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 40px;
     padding-left: 2px;
 
@@ -105,16 +115,26 @@
     background-position: center;
 }
 
+.h1-padre-portfolio a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
 
-.h1-portfolio a {
+
+.h1-portfolio h1 {
+    margin: 100px;
     text-decoration: none;
     color: white;
+    padding-left: 550px;
+
 }
 
 .h1-portfolio {
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
-    margin-left: 700px;
+    font-size: 35px;
+    margin-left: 350px;
     margin-top: 40px;
 
 }
@@ -133,16 +153,24 @@
     background-position: center;
 }
 
+.h1-padre-servicios a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
 
-.h1-servicios a {
+
+.h1-servicios h1 {
     margin: 100px;
     text-decoration: none;
     color: white;
+
 }
 
 .h1-servicios {
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 40px;
 }
 
@@ -164,7 +192,7 @@
 
 .h1-foto {
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 40px;
     margin-right: 80px;
     color: white;
@@ -184,16 +212,17 @@
 }
 
 .padre-clientes img {
-    padding: 100px;
+    padding: 100px 0;
     width: 100%;
-    right: auto;
 }
 
 
 /*MOBILE*/
 /*Haciendo la página Responsive*/
 
-
+@media only screen and 
+(max-width: 600px) 
+{   body {     background-color: lightblue;   } }
 
 
 
@@ -272,6 +301,7 @@
 .menu-nosotros a {
     text-decoration: none;
     color: white;
+    font-weight: 700;
 }
 
 
@@ -294,7 +324,7 @@
 }
 
 
-.h1-adentro-nostros {
+.h1-adentro-nosotros {
     
     margin: auto;
 
@@ -303,36 +333,65 @@
 
 /* TITULO NOSOTROS Y PARRAFO */
 
-.parrafo-nos{
-    font-style: italic;
+.h1-adentro-nosotros h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.h1-adentro-nosotros p{
+    font-weight: 300;
+    font-size: 20px;
 }
 
 /*VIDEO SERVICIOS*/
-.adentro-servicios{
+.adentro-servicios {
     min-height: 100vh;
-    position: relative;
     z-index: 2;
 }
 
-video {
-    position:absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-
+.servicios-video {
+    position: relative;
 }
 
+.servicios-video h1 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 50%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.servicios-video video {
+    width: 100%;
+}
+
+
+
+
 .h1-adentro-servicios{
-    position:absolute;
-    top: 0%;
-    left: 0%;
     width: 100%;
     height: 100%;
     background: black;
     opacity: 0.5;
     mix-blend-mode: overlay;
 
+}
+
+.h1-adentro-servicios video {
+    padding-bottom: 200px;
+    display: block;
+}
+
+.h1-servicios-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 12px;
 }
 
 /*Pagina contacto*/
@@ -358,6 +417,8 @@ video {
     margin: auto;
 
 }
+
+
 
 
 
