@@ -337,6 +337,10 @@
     font-size: 12px;
 }
 
+.h1-servicios-2 img {
+    width: 100%;
+}
+
 /*Pagina contacto*/
 .adentro-contacto {
     display: flex;
