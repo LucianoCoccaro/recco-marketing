@@ -13,28 +13,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--BOOTSTRAP -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 </head>
 
 
 <body>
     <!--HEADER -->
-    <header class="header-container">
-        <div class="logo-recco" >
-            <a href="index.html"> <img src="images/logo-recco.png" alt=""></a>
-        </div>
-
-        <!--LISTA DESORDENADA / CATEGORIAS-->
-        <nav class="nav">
-            <ul class="menu">
-                <a href="https://lucianococcaro.myportfolio.com/work" target="_blank">Portfolio</a>
-                <a href="./servicios.html">Servicios</a>
-                <a href="./nosotros.html">Nosotros</a>
-                <a href="./contacto.html">Contacto</a>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a href="index.html"> <img src="images/logo-recco.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="https://lucianococcaro.myportfolio.com/work">Portfolio</a>
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -44,29 +52,29 @@
 
     <!--IMAGEN Y H1 NOSOTROS-->
 
-    <section class="h1-padre"> 
+    <section class="h1-padre">
         <a href="nosotros.html">
-        <div class="h1-nosotros">
-            <h1> Nosotros </h1>
-        </div>
+            <div class="h1-nosotros">
+                <h1> Nosotros </h1>
+            </div>
         </a>
     </section>
 
     <!--IMAGEN Y H1 PORTFOLIO-->
-    <section class="h1-padre-portfolio"> 
+    <section class="h1-padre-portfolio">
         <a href="https://lucianococcaro.myportfolio.com/work">
-        <div class="h1-portfolio">
-            <h1> Portfolio </h1>
-        </div>
+            <div class="h1-portfolio">
+                <h1> Portfolio </h1>
+            </div>
         </a>
     </section>
 
     <!--IMAGEN Y H1 SERVICIOS-->
-    <section class="h1-padre-servicios"> 
+    <section class="h1-padre-servicios">
         <a href="servicios.html">
-        <div class="h1-servicios">
-            <h1> Servicios </h1>
-        </div>
+            <div class="h1-servicios">
+                <h1> Servicios </h1>
+            </div>
         </a>
     </section>
 
@@ -107,6 +115,14 @@
 
     </footer>
 
+
+    <!--SCRIPTS JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
 
 
 </body>

@@ -7,37 +7,36 @@
 
 /*ESTILOS DEL HEADER*/
 
-.logo-recco img {
-    width: 180px;
+.container-fluid img {
+    width: 200px;
+    padding-left: 50px;
 }
 
-.logo-recco {
+.container-fluid {
     text-align: left;
-    padding-right: 300px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-
 
 
 }
 
-.header-container {
+#navbarNavAltMarkup {
     font-family: 'Poppins', sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     min-height: 70px;
-    background-color: white;
     color: gray;
-    font-size: 20px;
+    font-size: 25px;
     list-style: none;
+    gap: 300px;
+    padding-left: 150px;
+    font-weight: 700;
 }
 
 /* NAV */
-.nav {
+.navbar-nav {
     width: 50%;
     display: flex;
     align-items: center;
-    background-color: white;
+
 }
 
 
@@ -46,7 +45,6 @@
 
 .menu {
     display: flex;
-    background-color: white;
     align-items: center;
     justify-content: center;
     gap: 50px;
@@ -127,7 +125,7 @@
     margin: 100px;
     text-decoration: none;
     color: white;
-    padding-left: 550px;
+    padding-left: 750px;
 
 }
 
@@ -247,62 +245,7 @@
 
 
 
-/* MENUS DE LANDING */
 
-/*NOSOTROS*/
-
-/*ESTILO HEADER LANDINGS*/
-
-.logo-recco-nosotros img {
-    width: 180px;
-}
-
-.logo-recco-nosotros {
-    text-align: left;
-    padding-right: 300px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-
-
-
-}
-
-.header-nosotros {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    min-height: 70px;
-    background-color: rgb(34, 34, 34);
-    color: gray;
-    font-size: 20px;
-    list-style: none;
-}
-
-/* NAV */
-.nav-nosotros {
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
-
-
-
-/* MENU */
-
-.menu-nosotros {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
-
-/* TEXT DECORATION NONE MENU */
-
-.menu-nosotros a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-}
 
 
 /*IMAGEN ADENTRO DE NOSTROS*/
