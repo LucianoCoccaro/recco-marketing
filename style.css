@@ -7,56 +7,14 @@
 
 /*ESTILOS DEL HEADER*/
 
-.container-fluid img {
-    width: 200px;
-    padding-left: 50px;
-}
-
-.container-fluid {
-    text-align: left;
-
-
-}
-
-#navbarNavAltMarkup {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: start;
-    min-height: 70px;
-    color: gray;
-    font-size: 25px;
-    list-style: none;
-    gap: 300px;
-    padding-left: 150px;
-    font-weight: 700;
-}
-
-/* NAV */
-.navbar-nav {
-    width: 50%;
-    display: flex;
-    align-items: center;
-
-}
 
 
 
 /* MENU */
 
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    font-weight: 700;
-}
+.navbar {
+    font-family: 'Poppins', sans-serif;
 
-/* TEXT DECORATION NONE MENU */
-
-.menu a {
-    text-decoration: none;
-    color: gray;
-    font-weight: 700;
 }
 
 
@@ -64,103 +22,52 @@
 
 
 /*H1 TEXTO Y IMAGEN NOSOTROS*/
-.h1-padre  {
-    width: 100%;
-    height: 900px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: start;
-    background: url(images/portada-nosotros.png);
-    background-size: cover;
-    background-position: center;
-}
 
-.h1-padre a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-
-.h1-nosotros h1 {
-    margin: 100px;
+.h1-nosotros a {
     text-decoration: none;
     color: white;
-
 }
 
 .h1-nosotros {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    margin-top: 40px;
-    padding-left: 2px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    padding: auto;
+    margin: auto;
 
 }
-
 
 
 /*H1 TEXTO Y IMAGEN PORTFOLIO*/
-.h1-padre-portfolio {
-    width: 100%;
-    height: 900px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    gap: 30px;
-    background: url(images/portada-portfolio.png);
-    background-size: cover;
-    background-position: center;
-}
 
-.h1-padre-portfolio a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-
-.h1-portfolio h1 {
-    margin: 100px;
+.h1-portfolio a {
     text-decoration: none;
     color: white;
-    padding-left: 750px;
 
 }
 
 .h1-portfolio {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    margin-left: 350px;
-    margin-top: 40px;
-
+    color: white;
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    padding: auto;
+    margin: auto;
 }
+
+
+
 
 /*H1 TEXTO Y IMAGEN SERVICIOS*/
 
-.h1-padre-servicios {
-    width: 100%;
-    height: 900px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: start;
-    gap: 30px;
-    background: url(images/portada-servicios.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.h1-padre-servicios a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-
-.h1-servicios h1 {
-    margin: 100px;
+.h1-servicios a {
     text-decoration: none;
     color: white;
 
@@ -168,61 +75,35 @@
 
 .h1-servicios {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    padding: auto;
+    margin: auto;
 }
 
 /*H1 TEXTO Y IMAGEN FOTOGRAFIA*/
 
-.padre-foto {
-    width: 100%;
-    height: 900px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    gap: 30px;
-    background: url(images/portada-fotografia.png);
-    background-size: cover;
-    background-position: center;
-}
-
-
 
 .h1-foto {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    margin-bottom: 40px;
-    margin-right: 80px;
     color: white;
-
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    padding: auto;
+    margin: auto;
 }
+
+
 
 
 /* IMAGEN CLIENTES */
-
-.padre-clientes {
-    display: flex;
-    align-items: flex-start;
-    justify-content: start;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.padre-clientes img {
-    padding: 100px 0;
-    width: 100%;
-}
-
-
-/*MOBILE*/
-/*Haciendo la página Responsive*/
-
-@media only screen and 
-(max-width: 600px) 
-{   body {     background-color: lightblue;   } }
-
-
 
 
 
@@ -230,18 +111,19 @@
 
 /*FOOTER*/
 
-.nav-footer {
-    background-color: rgb(34, 34, 34);
+.container {
     color: white;
     display: flex;
-    padding: 20px 80px;
-    justify-content: space-around;
-    height: 100px;
+    padding left: 100px;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    line-height: 5;
-
+    font-size: 30px;
+    padding: 20px;
 }
+.container a{
+    text-decoration: none;
+}
+
+
 
 
 
@@ -252,7 +134,7 @@
 
 .adentro-nosotros {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
     background-size: cover;
     background-position: center;
@@ -278,12 +160,15 @@
 .h1-adentro-nosotros h1{
     font-weight: 700;
     font-size: 50px;
+    text-align: center;
 }
 
 
 .h1-adentro-nosotros p{
     font-weight: 300;
     font-size: 20px;
+    text-align: center;
+    
 }
 
 /*VIDEO SERVICIOS*/
@@ -341,20 +226,7 @@
 }
 
 /*Pagina contacto*/
-.adentro-contacto {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    background-size: cover;
-    background-position: center;
-    background: url(images/adentro-servicios.png);
-    background-size: cover;
-    background-position: center;
-    padding: 300px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 12px;
-}
+
 
 
 .h1-adentro-contacto {
@@ -363,6 +235,25 @@
 
 }
 
+
+/*FORMULARIO CONTACTO*/
+.form-fila {
+    background: url(images/adentro-servicios.png);
+    background-size: cover;
+    background-position: center;
+    background: url(images/adentro-servicios.png);
+    background-size: cover;
+    background-position: center;
+    padding: 300px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+}
 
 
 

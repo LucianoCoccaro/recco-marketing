@@ -27,13 +27,13 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a href="index.html"> <img src="images/logo-recco.png" alt=""></a>
+                <a href="index.html"> <img src="images/logo-recco.png" alt="" width="150px"  ></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
                         <a class="nav-link" href="https://lucianococcaro.myportfolio.com/work">Portfolio</a>
@@ -42,35 +42,54 @@
                     </div>
                 </div>
             </div>
-        </nav>
     </header>
-    <!-- h1 CONTACTO -->
-    <section class="adentro-contacto">
-        <div class="h1-adentro-contacto">
-            <h1> Contacto </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, velit?</p>
-        </div>
 
-    </section>
+    <!--FORMULARIO-->
+    <form action="/server/" method="post" enctype="application/x-www-form-urlencoded" class="form-contacto">
+        <div class="form-fila">
+
+                <!--Label/Titulo-->
+                <label for="nombre-completo">Nombre completo</label>
+                <input type="text" placeholder="Nombre Completo">
+
+
+                <!--input tipo email-->
+                <label for="email" >Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+
+                <!--input tipo email-->
+                <label for="comentario">comentario</label>
+                <input type="comentario" name="comentario" id="comentario" placeholder="Comentario">
+
+        </div>
+    </form>
+
 
     <!--FOOTER-->
 
-    <footer class="footer-container">
-        <div class="logo">
-        </div>
-        <nav class="nav-footer">
-            <ul>
-                <l>Whatsapp</l>
-                <l>Instagram</l>
-                <l>Facebook</l>
-                <l>Email</l>
+    <footer class="bg-dark text-white">
+        <div class="container">
+          <nav class="row">
+            <a href="" class="col-3 text-reset text-uppercase d-flex align-items-center"></a>
+            <ul class="col-3 list-unstyled">
+              <li class="font-weight-bold text-uppercase"></li>
+              <li> <a href="index.html" class="text-reset"> Home</a> </li>
+              <li> <a href="nosotros.html" class="text-reset"> Nosotros</a> </li>
+              <li> <a href="servicios.html" class="text-reset"> Servicios</a> </li>
+              <li> <a href="https://lucianococcaro.myportfolio.com/work" class="text-reset"> Portfolio</a> </li>
+  
             </ul>
-
-        </nav>
-
-
-
-    </footer>
+  
+  
+          </nav>
+  
+  
+  
+        </div>
+  
+  
+  
+      </footer>
 
     <!--SCRIPTS JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
