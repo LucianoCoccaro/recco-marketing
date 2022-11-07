@@ -2,114 +2,210 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recco Marketing</title>
-    <!--CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recco Marketing</title>
+  <!--CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!--BOOTSTRAP -->
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!--BOOTSTRAP -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 </head>
 
 
 <body>
-    <!--HEADER -->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a href="index.html"> <img src="images/logo-recco.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
-                        <a class="nav-link" href="https://lucianococcaro.myportfolio.com/work">Portfolio</a>
-                        <a class="nav-link" href="./servicios.html">Servicios</a>
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
-    <!--IMAGENES Y TITULOS-->
-
-
-    <!--IMAGEN Y H1 NOSOTROS-->
-
-    <section class="h1-padre">
-        <a href="nosotros.html">
-            <div class="h1-nosotros">
-                <h1> Nosotros </h1>
-            </div>
-        </a>
-    </section>
-
-    <!--IMAGEN Y H1 PORTFOLIO-->
-    <section class="h1-padre-portfolio">
-        <a href="https://lucianococcaro.myportfolio.com/work">
-            <div class="h1-portfolio">
-                <h1> Portfolio </h1>
-            </div>
-        </a>
-    </section>
-
-    <!--IMAGEN Y H1 SERVICIOS-->
-    <section class="h1-padre-servicios">
-        <a href="servicios.html">
-            <div class="h1-servicios">
-                <h1> Servicios </h1>
-            </div>
-        </a>
-    </section>
-
-    <!--IMAGEN Y H1 FOTOGRAFIA-->
-    <section class="padre-foto">
-        <div class="h1-foto">
-            <h1> Fotografia </h1>
+  <!--HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a href="index.html"> <img src="images/logo-recco.png" alt="" width="150px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+            <a class="nav-link" href="https://lucianococcaro.myportfolio.com/work">Portfolio</a>
+            <a class="nav-link" href="./servicios.html">Servicios</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </div>
         </div>
+      </div>
+    </nav>
+  </header>
 
-    </section>
 
-    <!-- IMAGEN CLIENTES -->
-    <section class="padre-clientes">
-        <div class="h1-clientes">
-            <img src="images/CLIENTES.png" alt="">
-        </div>
+  <!--IMAGENES Y TITULO NOSOTROS-->
 
-    </section>
+  <h1 class="h1-nosotros"> <a href="nosotros.html">Nosotros</a> </h1>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/portada-nosotros.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carru1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carru2.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--IMAGENES Y TITULO PORTFOLIO-->
+
+  <h1 class="h1-portfolio"> <a href="https://lucianococcaro.myportfolio.com/work">Portfolio</a> </h1>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/portada-portfolio.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carru3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carru4.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--IMAGENES Y TITULO SERVICIOS-->
+
+  <h1 class="h1-servicios"> <a href="servicios.html">Servicios</a> </h1>
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/portada-servicios.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/carru5.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carru6.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--IMAGENES Y TITULO FOTOGRAFIA-->
+
+  <!--IMAGEN Y H1 FOTOGRAFIA-->
+  <h1 class="h1-foto">Fotografia</h1>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/portada-fotografia.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  </section>
+
+  <!-- IMAGEN CLIENTES -->
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/CLIENTES.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+
+
+
 
 
 
     <!--FOOTER-->
 
-    <footer class="footer-container">
-        <div class="logo">
-        </div>
-        <nav class="nav-footer">
-            <ul>
-                <l>Whatsapp</l>
-                <l>Instagram</l>
-                <l>Facebook</l>
-                <l>Email</l>
-            </ul>
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <nav class="row">
+          <a href="" class="col-3 text-reset text-uppercase d-flex align-items-center"></a>
+          <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold text-uppercase"></li>
+            <li> <a href="index.html" class="text-reset"> Home</a> </li>
+            <li> <a href="nosotros.html" class="text-reset"> Nosotros</a> </li>
+            <li> <a href="servicios.html" class="text-reset"> Servicios</a> </li>
+            <li> <a href="https://lucianococcaro.myportfolio.com/work" class="text-reset"> Portfolio</a> </li>
+
+          </ul>
+
 
         </nav>
+
+
+
+      </div>
 
 
 
@@ -118,11 +214,11 @@
 
     <!--SCRIPTS JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script>
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"></script>
 
 
 </body>
